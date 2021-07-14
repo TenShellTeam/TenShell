@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Menu">
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doNextAppsClickL">
+      <fadeOut continue="" continue-type="" duration="200" duration-type="integer" object="~senderForm" object-type="object"/>
+      <hideForm form="~sender" form-type="form"/>
+      <exec command="C:\Program Files (x86)\Next Apps\Next Apps.exe" command-type="string" wait="" wait-type=""/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doSettingsClickL">
+      <showForm form="Settings_home" form-type="form"/>
+      <fadeIn continue="" continue-type="" duration="200" duration-type="integer" object="form('Settings_home')" object-type="object"/>
+    <hideForm form="~sender" form-type="form"/>
+    </method>
+  <method name="doButtonAction">
+      <fadeOut continue="" continue-type="" duration="200" duration-type="integer" object="~senderForm" object-type="object"/>
+      <hideForm form="~sender" form-type="form"/>
+    </method>
+  <method name="doSmartCommandClickL">
+      <showForm form="Windows_Mode" form-type="form"/>
+      <fadeIn continue="" continue-type="" duration="200" duration-type="integer" object="form('Windows_Mode')" object-type="object"/>
+      <hideForm form="~sender" form-type="form"/>
+    </method>
+  <method name="doOffClickL">
+      <showForm form="Confirmation_off" form-type="form"/>
+      <fadeIn continue="" continue-type="" duration="200" duration-type="integer" object="form('Confirmation_off')" object-type="object"/>
+      <hideForm form="~sender" form-type="form"/>
+    </method>
+  <method name="doClick">
+      <openMedia autoplay="1" autoplay-type="flag" id="TenOS" id-type="string" source="res://.data/audio/Windows Startup.wav" source-type="string"/>
+    </method>
+  <method name="doInfoClickL">
+      <showForm form="Time" form-type="form"/>
+      <fadeIn continue="" continue-type="" duration="200" duration-type="integer" object="form('Time')" object-type="object"/>
+      <hideForm form="~sender" form-type="form"/>
+    </method>
+  <method name="doVKClickL">
+      <toast value="В разработке..." value-type="string"/>
+    </method>
+  <method name="doYouTubeClickL">
+      <showForm form="Youtube" form-type="form"/>
+      <fadeIn continue="" continue-type="" duration="200" duration-type="integer" object="form('Youtube')" object-type="object"/>
+      <hideForm form="~sender" form-type="form"/>
+    </method>
+  <method name="doSetBoxClickL">
+      <showForm form="SetBox" form-type="form"/>
+      <fadeIn continue="" continue-type="" duration="200" duration-type="integer" object="form('SetBox')" object-type="object"/>
+      <hideForm form="~sender" form-type="form"/>
+    </method>
+  <method name="doTenMusicClickL">
+      <showPreloader value="Выполнение команды..." value-type="string"/>
+      <sleep sync="" sync-type="" value="1000" value-type="integer"/>
+      <hidePreloader/>
+      <showForm form="TenMusic" form-type="form"/>
+      <fadeIn continue="" continue-type="" duration="200" duration-type="integer" object="form('TenMusic')" object-type="object"/>
+      <hideForm form="~sender" form-type="form"/>
+    </method>
+  <method name="doTenBrowserClickL">
+      <showPreloader value="Выполнение команды..." value-type="string"/>
+      <sleep sync="" sync-type="" value="1000" value-type="integer"/>
+      <hidePreloader/>
+      <showForm form="TenBrowser" form-type="form"/>
+      <fadeIn continue="" continue-type="" duration="200" duration-type="integer" object="form('TenBrowser')" object-type="object"/>
+      <hideForm form="~sender" form-type="form"/>
+    </method>
+  <method name="doTenNotepadClickL">
+      <showPreloader value="Выполнение команды..." value-type="string"/>
+      <sleep sync="" sync-type="" value="1000" value-type="integer"/>
+      <hidePreloader/>
+      <showForm form="TenNotepad" form-type="form"/>
+      <fadeIn continue="" continue-type="" duration="200" duration-type="integer" object="form('TenNotepad')" object-type="object"/>
+      <hideForm form="~sender" form-type="form"/>
+    </method>
+  <method name="doButtonAltAction">
+      <showForm form="system_off" form-type="form"/>
+      <fadeOut continue="" continue-type="" duration="200" duration-type="integer" object="~senderForm" object-type="object"/>
+      <hideForm form="~sender" form-type="form"/>
+    </method>
+  <method name="doDelete_SettingsClickLeft">
+      <elementHide object="Settings" object-type="object"/>
+      <toast value="Плитка скрыта." value-type="string"/>
+    </method>
+  
+  
+  <method name="doDelete_InfoClickLeft">
+      <elementHide object="Info" object-type="object"/>
+      <toast value="Плитка скрыта." value-type="string"/>
+    </method>
+  <method name="doDelete_TenCommandClickLeft">
+      <toast value="Плитка скрыта." value-type="string"/>
+      <elementHide object="SmartCommand" object-type="object"/>
+    </method>
+  <method name="doDelete_TenBrowserClickLeft">
+      <toast value="Плитка скрыта." value-type="string"/>
+      <elementHide object="TenBrowser" object-type="object"/>
+    </method>
+  <method name="doDelete_YouTubeClickLeft">
+      <toast value="Плитка скрыта." value-type="string"/>
+      <elementHide object="YouTube" object-type="object"/>
+    </method>
+  <method name="doDelete_SetBoxClickLeft">
+      <toast value="Плитка скрыта." value-type="string"/>
+      <elementHide object="SetBox" object-type="object"/>
+    </method>
+  <method name="doDelete_OffClickLeft">
+      <toast value="Плитка действия скрыта." value-type="string"/>
+      <elementHide object="Off" object-type="object"/>
+    </method>
+  <method name="doDelete_TenMusicClickLeft">
+      <toast value="Плитка скрыта." value-type="string"/>
+      <elementHide object="TenMusic" object-type="object"/>
+    </method>
+  <method name="doDelete_TenNotepadClickLeft">
+      <toast value="Плитка скрыта." value-type="string"/>
+      <elementHide object="TenNotepad" object-type="object"/>
+    </method>
+  <method name="doDelete_TenPhotosClickLeft">
+      <toast value="Плитка скрыта." value-type="string"/>
+      <elementHide object="TenPhotos" object-type="object"/>
+    </method>
+  <method name="doS_SettingsClickLeft">
+      <toast value="Плитка включена." value-type="string"/>
+      <elementShow object="Settings" object-type="object"/>
+    </method>
+  
+  <method name="doS_InfoClickLeft">
+      <toast value="Плитка включена." value-type="string"/>
+      <elementShow object="Info" object-type="object"/>
+    </method>
+  <method name="doS_TenCommandClickLeft">
+      <toast value="Плитка включена." value-type="string"/>
+      <elementShow object="SmartCommand" object-type="object"/>
+    </method>
+  <method name="doS_TenBrowserClickLeft">
+      <toast value="Плитка включена." value-type="string"/>
+      <elementShow object="TenBrowser" object-type="object"/>
+    </method>
+  <method name="doS_YouTubeClickLeft">
+      <toast value="Плитка включена." value-type="string"/>
+      <elementShow object="YouTube" object-type="object"/>
+    </method>
+  <method name="doS_SetBoxClickLeft">
+      <toast value="Плитка включена." value-type="string"/>
+      <elementShow object="SetBox" object-type="object"/>
+    </method>
+  <method name="doS_OffClickLeft">
+      <toast value="Плитка действия включена." value-type="string"/>
+      <elementShow object="Off" object-type="object"/>
+    </method>
+  <method name="doS_TenMusicClickLeft">
+      <toast value="Плитка включена." value-type="string"/>
+      <elementShow object="TenMusic" object-type="object"/>
+    </method>
+  <method name="doS_TenNotepadClickLeft">
+      <toast value="Плитка включена." value-type="string"/>
+      <elementShow object="TenNotepad" object-type="object"/>
+    </method>
+  <method name="doS_TenPhotosClickLeft">
+      <toast value="Плитка включена." value-type="string"/>
+      <elementShow object="TenPhotos" object-type="object"/>
+    </method>
+  <method name="doButton3Action">
+      <toast value="Включить плитки приложений..." value-type="string"/>
+      <elementToggle object="ShowerApps" object-type="object"/>
+    </method>
+  
+  
+  
+  
+  
+  <method name="doInfoClickLeft">
+      <showForm form="Time" form-type="form"/>
+      <hideForm form="~sender" form-type="form"/>
+      <fadeOut continue="" continue-type="" duration="200" duration-type="integer" object="~senderForm" object-type="object"/>
+    </method>
+  
+  <method name="doTenBrowserClickLeft">
+      <showForm form="TenBrowser" form-type="form"/>
+      <hideForm form="~sender" form-type="form"/>
+      <fadeOut continue="" continue-type="" duration="200" duration-type="integer" object="~senderForm" object-type="object"/>
+    </method>
+  <method name="doYouTubeClickLeft">
+      <showForm form="Youtube" form-type="form"/>
+      <hideForm form="~sender" form-type="form"/>
+      <fadeOut continue="" continue-type="" duration="200" duration-type="integer" object="~senderForm" object-type="object"/>
+    </method>
+  <method name="doSetBoxClickLeft">
+      <showForm form="SetBox" form-type="form"/>
+      <hideForm form="~sender" form-type="form"/>
+      <fadeOut continue="" continue-type="" duration="200" duration-type="integer" object="~senderForm" object-type="object"/>
+    </method>
+  <method name="doOffClickLeft">
+      <showForm form="system_off" form-type="form"/>
+      <hideForm form="~sender" form-type="form"/>
+      <fadeOut continue="" continue-type="" duration="200" duration-type="integer" object="~senderForm" object-type="object"/>
+    </method>
+  <method name="doTenMusicClickLeft">
+      <showForm form="TenMusic_Home" form-type="form"/>
+      <hideForm form="~sender" form-type="form"/>
+      <fadeOut continue="" continue-type="" duration="200" duration-type="integer" object="~senderForm" object-type="object"/>
+    </method>
+  <method name="doTenNotepadClickLeft">
+      <showForm form="TenNotepad" form-type="form"/>
+      <hideForm form="~sender" form-type="form"/>
+      <fadeOut continue="" continue-type="" duration="200" duration-type="integer" object="~senderForm" object-type="object"/>
+    </method>
+  <method name="doTenPhotosClickLeft">
+      <showForm form="TenPhotos" form-type="form"/>
+      <fadeOut continue="" continue-type="" duration="200" duration-type="integer" object="~senderForm" object-type="object"/>
+      <hideForm form="~sender" form-type="form"/>
+    </method>
+  
+  <method name="doVkontakteClickL">
+      <showForm form="VK" form-type="form"/>
+      <hideForm form="~sender" form-type="form"/>
+      <fadeOut continue="" continue-type="" duration="200" duration-type="integer" object="~senderForm" object-type="object"/>
+    </method>
+  <method name="doDelete_vkontakteClickLeft">
+      <toast value="Плитка скрыта." value-type="string"/>
+      <elementHide object="vkontakte" object-type="object"/>
+    </method>
+  <method name="doVkontakteClickLeft">
+      <showForm form="VK" form-type="form"/>
+      <fadeOut continue="" continue-type="" duration="200" duration-type="integer" object="~senderForm" object-type="object"/>
+      <hideForm form="~sender" form-type="form"/>
+    </method>
+  <method name="doImage15ClickLeft">
+      <showForm form="VK" form-type="form"/>
+      <fadeOut continue="" continue-type="" duration="200" duration-type="integer" object="~senderForm" object-type="object"/>
+      <hideForm form="~sender" form-type="form"/>
+    </method>
+  <method name="doS_VKontakteClickLeft">
+      <toast value="Плитка включена." value-type="string"/>
+      <elementShow object="vkontakte" object-type="object"/>
+    </method>
+  </class>
+</root>

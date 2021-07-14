@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768" prefWidth="1360" styleClass="">
+  <children>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="768" id="image7" layoutX="0" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="1360">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Panel backgroundColor="#e6e6e6" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="Settings" layoutX="8" layoutY="104" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="144" prefWidth="232" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="72" id="image" layoutX="80" layoutY="32" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="72">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-image" image=".data/img/Settings_30027 (1).png" visible="1"/>
+        <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="48" id="Delete_Settings" layoutX="0" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="48">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-Delete_Settings" image=".data/img/Delete-80_icon-icons.com_57340.png" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Panel backgroundColor="#e6e6e6" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="YouTube" layoutX="8" layoutY="256" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="144" prefWidth="232" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="72" id="image4" layoutX="80" layoutY="32" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="72">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-image4" image=".data/img/Youtube_30038 (1).png" visible="1"/>
+        <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="48" id="Delete_YouTube" layoutX="0" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="48">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-Delete_YouTube" image=".data/img/Delete-80_icon-icons.com_57340.png" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Panel backgroundColor="#e6e6e6" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="SetBox" layoutX="248" layoutY="256" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="144" prefWidth="232" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <ImageViewEx AnchorPane.topAnchor="32" autoSize="false" centered="false" focusTraversable="false" height="72" id="imageAlt" layoutX="80" layoutY="32" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="72">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-imageAlt" image=".data/img/settings_configuration_18872 (1).png" visible="1"/>
+        <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="48" id="Delete_SetBox" layoutX="0" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="48">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-Delete_SetBox" image=".data/img/Delete-80_icon-icons.com_57340.png" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Panel backgroundColor="#e6e6e6" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="Info" layoutX="488" layoutY="104" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="144" prefWidth="232" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="72" id="image5" layoutX="80" layoutY="32" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="72">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-image5" image=".data/img/Info_Brownie.png" visible="1"/>
+        <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="48" id="Delete_Info" layoutX="0" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="48">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-Delete_Info" image=".data/img/Delete-80_icon-icons.com_57340.png" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Panel backgroundColor="#e6e6e6" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="Off" layoutX="488" layoutY="256" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="144" prefWidth="232" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="72" id="image6" layoutX="80" layoutY="32" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="72">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-image6" image=".data/img/ic_radio_button_off_128_28539.png" visible="1"/>
+        <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="48" id="Delete_Off" layoutX="0" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="48">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-Delete_Off" image=".data/img/Delete-80_icon-icons.com_57340.png" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-image7" image=".data/img/3PxX1S.png" visible="1"/>
+    <Panel backgroundColor="#e6e6e6" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="SmartCommand" layoutX="728" layoutY="104" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="144" prefWidth="232" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="72" id="image8" layoutX="80" layoutY="32" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="72">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-image8" image=".data/img/SmartCommand12.png" visible="1"/>
+        <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="48" id="Delete_TenCommand" layoutX="0" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="48">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-Delete_TenCommand" image=".data/img/Delete-80_icon-icons.com_57340.png" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" graphic=".data/img/Back_2_Small_TenOS.png" id="data-button" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" graphic=".data/img/ic_flash_off_128_28374.png" id="data-buttonAlt" visible="1"/>
+    <Panel backgroundColor="#e6e6e6" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="TenMusic" layoutX="728" layoutY="256" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="144" prefWidth="232" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="72" id="image9" layoutX="80" layoutY="32" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="72">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-image9" image=".data/img/TenMusic_TenShell.png" visible="1"/>
+        <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="48" id="Delete_TenMusic" layoutX="0" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="48">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-Delete_TenMusic" image=".data/img/Delete-80_icon-icons.com_57340.png" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Panel backgroundColor="#e6e6e6" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="TenBrowser" layoutX="968" layoutY="104" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="144" prefWidth="232" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="72" id="image10" layoutX="80" layoutY="32" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="72">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-image10" image=".data/img/TenBrowser_TenShell.png" visible="1"/>
+        <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="48" id="Delete_TenBrowser" layoutX="0" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="48">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-Delete_TenBrowser" image=".data/img/Delete-80_icon-icons.com_57340.png" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Panel backgroundColor="#e6e6e6" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="TenNotepad" layoutX="968" layoutY="256" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="144" prefWidth="232" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="72" id="image11" layoutX="80" layoutY="32" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="72">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-image11" image=".data/img/TenNotepad_TenShell.png" visible="1"/>
+        <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="48" id="Delete_TenNotepad" layoutX="0" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="48">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-Delete_TenNotepad" image=".data/img/Delete-80_icon-icons.com_57340.png" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+    <FlatButton alignment="CENTER" clickColor="#333333" color="#333333" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="40.243902439024" hoverColor="#333333" id="buttonAlt" layoutX="152" layoutY="40" prefHeight="48" prefWidth="136" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <FlatButton alignment="CENTER" clickColor="#333333" color="#333333" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="40.243902439024" hoverColor="#333333" id="button" layoutX="8" layoutY="40" prefHeight="40" prefWidth="136" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-image12" image=".data/img/user_tenIS.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="32" id="image13" layoutX="0" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="1360">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image13" image=".data/img/Panel_TenShell.png" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="1280" layoutY="0" prefHeight="25" prefWidth="40" styleClass="label " text="12:34" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="16"/>
+      </font>
+    </LabelEx>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="32" id="image12" layoutX="1328" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="32">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <FlatButton alignment="CENTER" clickColor="#333333" color="#333333" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="40.243902439024" hoverColor="#333333" id="button3" layoutX="1088" layoutY="0" prefHeight="48" prefWidth="136" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" graphic=".data/img/More_TenShell.png" id="data-button3" tooltipText="Показать..." visible="1"/>
+    <ScrollPane focusTraversable="false" hbarPolicy="NEVER" hvalue="0" id="ShowerApps" layoutX="984" layoutY="48" prefHeight="152" prefWidth="376" style="-fx-border-width: 1; &#10;-fx-border-radius: 0; &#10;-fx-border-color: #ffffff; &#10;-fx-background-color: #ffffff;" styleClass="scroll-pane " vbarPolicy="AS_NEEDED" vvalue="0">
+      <content>
+        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="208" prefWidth="352" styleClass="">
+          <children>
+            <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="56" id="S_Settings" layoutX="8" layoutY="8" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="56">
+              <font>
+                <Font name="System Regular" size="12"/>
+              </font>
+            </ImageViewEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-S_Settings" image=".data/img/Settings_30027 (1).png" visible="1"/>
+            <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="56" id="S_Info" layoutX="152" layoutY="8" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="56">
+              <font>
+                <Font name="System Regular" size="12"/>
+              </font>
+            </ImageViewEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-S_Info" image=".data/img/Info_Brownie.png" visible="1"/>
+            <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="56" id="S_TenCommand" layoutX="224" layoutY="8" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="56">
+              <font>
+                <Font name="System Regular" size="12"/>
+              </font>
+            </ImageViewEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-S_TenCommand" image=".data/img/SmartCommand12.png" visible="1"/>
+            <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="56" id="S_TenBrowser" layoutX="296" layoutY="8" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="56">
+              <font>
+                <Font name="System Regular" size="12"/>
+              </font>
+            </ImageViewEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-S_TenBrowser" image=".data/img/TenBrowser_TenShell.png" visible="1"/>
+            <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="56" id="S_YouTube" layoutX="8" layoutY="80" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="56">
+              <font>
+                <Font name="System Regular" size="12"/>
+              </font>
+            </ImageViewEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-S_YouTube" image=".data/img/Youtube_30038 (1).png" visible="1"/>
+            <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="56" id="S_SetBox" layoutX="80" layoutY="80" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="56">
+              <font>
+                <Font name="System Regular" size="12"/>
+              </font>
+            </ImageViewEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-S_SetBox" image=".data/img/settings_configuration_18872 (1).png" visible="1"/>
+            <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="56" id="S_Off" layoutX="152" layoutY="80" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="56">
+              <font>
+                <Font name="System Regular" size="12"/>
+              </font>
+            </ImageViewEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-S_Off" image=".data/img/ic_radio_button_off_128_28539.png" visible="1"/>
+            <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="56" id="S_TenMusic" layoutX="224" layoutY="80" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="56">
+              <font>
+                <Font name="System Regular" size="12"/>
+              </font>
+            </ImageViewEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-S_TenMusic" image=".data/img/TenMusic_TenShell.png" visible="1"/>
+            <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="56" id="S_TenNotepad" layoutX="296" layoutY="80" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="56">
+              <font>
+                <Font name="System Regular" size="12"/>
+              </font>
+            </ImageViewEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-S_TenNotepad" image=".data/img/TenNotepad_TenShell.png" visible="1"/>
+            <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="56" id="S_TenPhotos" layoutX="8" layoutY="152" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="56">
+              <font>
+                <Font name="System Regular" size="12"/>
+              </font>
+            </ImageViewEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-S_TenPhotos" image=".data/img/TenPhotos_TenShell.png" visible="1"/>
+            <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="56" id="S_VKontakte" layoutX="80" layoutY="8" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="56">
+              <font>
+                <Font name="System Regular" size="12"/>
+              </font>
+            </ImageViewEx>
+            <Data cursor="DEFAULT" enabled="1" id="data-S_VKontakte" image=".data/img/6.jpg" visible="1"/>
+          </children>
+        </AnchorPane>
+      </content>
+    </ScrollPane>
+    <Data cursor="DEFAULT" enabled="1" id="data-ShowerApps" visible=""/>
+    <Panel backgroundColor="#e6e6e6" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="TenPhotos" layoutX="8" layoutY="408" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="144" prefWidth="232" styleClass="" titleColor="#000000" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="72" id="image14" layoutX="80" layoutY="32" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="72">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-image14" image=".data/img/TenPhotos_TenShell.png" visible="1"/>
+        <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="48" id="Delete_TenPhotos" layoutX="0" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="48">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-Delete_TenPhotos" image=".data/img/Delete-80_icon-icons.com_57340.png" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-TenPhotos" tooltipText="TenPhotos" visible="1"/>
+    <Data cursor="DEFAULT" id="data-SetBox"/>
+    <Panel backgroundColor="#e6e6e6" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="vkontakte" layoutX="248" layoutY="104" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="144" prefWidth="232" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="72" id="image15" layoutX="80" layoutY="32" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="72">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-image15" image=".data/img/6.jpg" visible="1"/>
+        <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="48" id="delete_vkontakte" layoutX="0" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="48">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-delete_vkontakte" image=".data/img/Delete-80_icon-icons.com_57340.png" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-vkontakte" tooltipText="ВКонтакте" visible="1"/>
+    <Data cursor="DEFAULT" id="data-YouTube"/>
+    <Data cursor="DEFAULT" id="data-TenBrowser"/>
+    <Data cursor="DEFAULT" id="data-Settings"/>
+    <Data cursor="DEFAULT" id="data-SmartCommand"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-circle" visible="1"/>
+    <Data cursor="DEFAULT" id="data-Info"/>
+    <FlatButton alignment="CENTER" clickColor="#333333" color="#333333" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="40.243902439024" hoverColor="#333333" id="button4" layoutX="296" layoutY="40" prefHeight="48" prefWidth="136" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" graphic=".data/img/Helperapp_small_TenOS.png" id="data-button4" visible="1"/>
+    <Panel backgroundColor="#e6e6e6" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="TenModules" layoutX="248" layoutY="408" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="144" prefWidth="232" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="72" id="image3" layoutX="80" layoutY="32" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="72">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-image3" image=".data/img/TenCommand_TenShell.png" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-TenModules" tooltipText="Модули" visible="1"/>
+    <Panel backgroundColor="#e6e6e6" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="TenStarter" layoutX="488" layoutY="408" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="144" prefWidth="232" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="72" id="image16" layoutX="80" layoutY="32" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" text="TenStarter" textFill="#000000" width="72">
+          <font>
+            <Font name="Segoe UI Semibold" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-image16" image=".data/img/ic_settings_128_28718.png" visible="1"/>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="32" id="image17" layoutX="0" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="32">
+          <font>
+            <Font name="Segoe UI Semibold" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-image17" image=".data/img/ic_settings_128_28718.png" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-TenStarter" visible=""/>
+    <Circle fill="#333333" focusTraversable="false" id="circle" layoutX="760" layoutY="432" radius="12" stroke="#ffffff" strokeType="INSIDE" strokeWidth="2" styleClass=""/>
+    <Data cursor="DEFAULT" id="data-Off"/>
+  </children>
+</AnchorPane>

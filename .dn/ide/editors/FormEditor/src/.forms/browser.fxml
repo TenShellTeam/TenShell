@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.web.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450" prefWidth="583">
+  <children>
+    <TabPaneEx AnchorPane.bottomAnchor="2" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="2" AnchorPane.topAnchor="40" id="tabs" layoutX="0" layoutY="40" prefHeight="408" prefWidth="448" tabClosingPolicy="ALL_TABS"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-tabs" visible="1"/>
+    <Panel AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="-6" AnchorPane.topAnchor="0" backgroundColor="#cce6ff" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="1" id="panel" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="40" prefWidth="589">
+      <children>
+        <TextField AnchorPane.leftAnchor="112" AnchorPane.rightAnchor="43" AnchorPane.topAnchor="8" editable="true" id="browserUrl" layoutX="113" layoutY="9" prefColumnCount="12" prefHeight="25" prefWidth="432" promptText="" text=""/>
+        <Data cursor="DEFAULT" enabled="1" id="data-url" visible="1"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." graphicTextGap="4" id="back" layoutX="8" layoutY="8" prefHeight="25" prefWidth="32" text="&lt;" textAlignment="CENTER" textFill="#333333" underline="false" wrapText="false"/>
+        <Data cursor="DEFAULT" id="data-back"/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." graphicTextGap="4" id="forw" layoutX="72" layoutY="8" prefHeight="25" prefWidth="32" text="&gt;" textAlignment="CENTER" textFill="#333333" underline="false" wrapText="false"/>
+        <Data cursor="DEFAULT" id="data-forw"/>
+        <ProgressIndicator AnchorPane.rightAnchor="44" id="loadState" layoutX="512" layoutY="14" prefHeight="16" prefWidth="32" progress="-1"/>
+        <Data cursor="DEFAULT" enabled="1" id="data-loadState" visible=""/>
+        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." graphicTextGap="4" id="reload" layoutX="40" layoutY="8" prefHeight="24" prefWidth="32" text="O" textAlignment="CENTER" textFill="#333333" underline="false" wrapText="false"/>
+        <Data cursor="DEFAULT" enabled="1" id="data-reload" visible="1"/>
+        <Button AnchorPane.rightAnchor="12" alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." graphicTextGap="4" id="newtab" layoutX="551" layoutY="8" prefHeight="25" prefWidth="25" text="+" textAlignment="CENTER" textFill="#333333" underline="false" wrapText="false"/>
+        <Data cursor="DEFAULT" enabled="1" id="data-newtab" visible="1"/>
+      </children>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
+  </children>
+</AnchorPane>

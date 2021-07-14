@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="TenCommand1">
+    <method name="doEditAltGlobalKeyDownEnter">
+      <openBlock/>
+      <ifText method="equals" method-type="" not="" not-type="" object="~sender" object-type="object" string="/easter egg Altyn TenMusic" string-type="string"/>
+      <openMedia autoplay="1" autoplay-type="flag" id="Easter_egg" id-type="string" source="res://.data/audio/TATARKA - АЛТЫН __ ALTYN.mp3" source-type="string"/>
+      <closeBlock/>
+    </method>
+  </class>
+</root>

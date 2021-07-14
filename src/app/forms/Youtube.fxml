@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768" prefWidth="1360" styleClass="">
+  <children>
+    <org.develnext.jphp.ext.javafx.support.control.MediaViewBox AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" backgroundColor="#1a1a1a" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="mediaView" layoutX="0" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="768" prefWidth="1360" proportional="true" smooth="true" styleClass="" titleColor="#333333" titleOffset="15" titlePosition="TOP_LEFT">
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+      <children/>
+    </org.develnext.jphp.ext.javafx.support.control.MediaViewBox>
+    <Data cursor="DEFAULT" enabled="1" id="data-mediaView" visible="1"/>
+    <ImageViewEx AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" autoSize="false" centered="false" focusTraversable="false" height="40" id="image" layoutX="1320" layoutY="0" mosaic="false" mosaicGap="0" opacity="0.26829268292683" proportional="false" stretch="true" styleClass="" textFill="#000000" width="40">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data clickImage=".data/img/Complete_Small_TenOS.png" cursor="DEFAULT" enabled="1" hoverImage=".data/img/ic_radio_button_off_128_28539.png" id="data-image" image=".data/img/close_TenShell.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+    <FlatButton AnchorPane.bottomAnchor="0" alignment="CENTER" borderRadius="50" clickColor="#000000" color="#333333" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#1a1a1a" id="button" layoutX="0" layoutY="696" opacity="0.82926829268293" prefHeight="72" prefWidth="72" styleClass="x-flat-button " text="" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" graphic=".data/img/Play_TenMusic.png" id="data-button" visible="1"/>
+    <CheckBox AnchorPane.rightAnchor="48" alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="checkbox" layoutX="1264" layoutY="0" prefHeight="32" prefWidth="48" selected="true" styleClass="check-box " text="HD" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Bold" size="12"/>
+      </font>
+    </CheckBox>
+    <Data cursor="DEFAULT" enabled="1" id="data-checkbox" visible="1"/>
+    <TextField AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="120" alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit" layoutX="0" layoutY="0" prefColumnCount="12" prefHeight="32" prefWidth="520" promptText="Ссылка на видео" style="-fx-border-width: 1; &#10;-fx-border-radius: 0; &#10;-fx-border-color: #1a1a1a; &#10;-fx-background-color: #1a1a1a;" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-edit" visible="1"/>
+    <LabelEx AnchorPane.leftAnchor="8" AnchorPane.topAnchor="40" alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="8" layoutY="40" opacity="0.63414634146341" prefHeight="45" prefWidth="176" styleClass="label " text="YouTube BETA" textAlignment="LEFT" textFill="#990000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="30"/>
+      </font>
+    </LabelEx>
+    <CustomNode type="Arrow.image" x="256" y="216"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="32" id="imageAlt" layoutX="176" layoutY="376" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="32">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data clickImage=".data/img/Cursor_TenShell_Clicked.png" cursor="NONE" enabled="1" id="data-imageAlt" image=".data/img/Cursor_TenShell.png" visible="1"/>
+  </children>
+</AnchorPane>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="MainForm">
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doUpgradeCenterClick">
+      <showForm form="Upgrade_center" form-type="form"/>
+      <elementHide object="container" object-type="object"/>
+    <elementShow object="image9" object-type="object"/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doVKLauncherClick">
+      <elementHide object="container" object-type="object"/>
+      <elementHide object="container3" object-type="object"/>
+      <exec command="C:\Program Files (x86)\VK Launcher\VK Launcher.exe" command-type="string" wait="" wait-type=""/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doWall1MouseEn">
+      <elementHide object="container" object-type="object"/>
+      <elementHide object="container3" object-type="object"/>
+      <elementHide object="containerAlt" object-type="object"/>
+    </method>
+  <method name="doTimeCl">
+      <elementToggle object="containerAlt" object-type="object"/>
+    </method>
+  
+  <method name="doStartClickRi">
+      <showFormAndWait form="Secret_easter" form-type="form"/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doLonguageMouseEn">
+      <toast value="Это параметры раскладки. Нажмите Shift+alt для смены языка ввода" value-type="string"/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doStartClickL">
+      <elementToggle object="container" object-type="object"/>
+      <elementToggle object="container3" object-type="object"/>
+      <moveTo continue="" continue-type="" duration="1000" duration-type="integer" object="container" object-type="object" x="0" x-type="float" y="160" y-type="float"/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doDeleteVKlauncherAction">
+      <exec command="C:\Program Files (x86)\VK Launcher\unins.exe" command-type="string" wait="" wait-type=""/>
+    </method>
+  <method name="doVKClickL">
+      <exec command="C:\Program Files (x86)\VK Launcher\VK Launcher.exe" command-type="string" wait="" wait-type=""/>
+      <elementHide object="container" object-type="object"/>
+      <elementHide object="container3" object-type="object"/>
+      <openBlock/>
+      <ifFileExists file="C:\Program Files (x86)\VK Launcher\VK Launcher.exe" file-type="string" not="1" not-type=""/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doKeyDownCtrlO">
+      <showFormAndWait form="Parameters_power_supply" form-type="form"/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doImage4ClickRight">
+      <elementHide object="~sender" object-type="object"/>
+    </method>
+  
+  
+  
+  <method name="doWalls13Clic">
+      <fadeIn continue="" continue-type="" duration="200" duration-type="integer" object="form('Time')" object-type="object"/>
+      <showForm form="Time" form-type="form"/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doEditClickLeft">
+      <elementToggle object="browserAlt" object-type="object"/>
+    </method>
+  
+  <method name="doTimeClickLeft">
+      <elementToggle object="data" object-type="object"/>
+    </method>
+  
+  
+  
+  <method name="doClickLeft">
+      <openMedia autoplay="1" autoplay-type="flag" id="TenOS" id-type="string" source="res://.data/audio/Windows Startup.wav" source-type="string"/>
+    </method>
+  <method name="doEditScrollDown">
+      <elementShow object="browserAlt" object-type="object"/>
+    </method>
+  <method name="doEditScrollUp">
+      <elementHide object="browserAlt" object-type="object"/>
+    </method>
+  <method name="doEditKeyDownEnter">
+      <openBlock/>
+      <ifText method="equalsIgnoreCase" method-type="" not="" not-type="" object="edit" object-type="object" string="Выход" string-type="string"/>
+      <showNewForm form="LockScreen" form-type="form"/>
+      <closeBlock/>
+      <openBlock/>
+      <ifText method="equals" method-type="" not="" not-type="" object="edit" object-type="object" string="О системе" string-type="string"/>
+      <showFormAndWait form="Time" form-type="form"/>
+      <closeBlock/>
+      <openBlock/>
+      <ifText method="equalsIgnoreCase" method-type="" not="" not-type="" object="~sender" object-type="object" string="Привет" string-type="string"/>
+      <elementSetText object="~sender" object-type="object" relative="" relative-type="" value="Hello, I'm Cindy" value-type="string"/>
+      <closeBlock/>
+      <openBlock/>
+      <ifText method="equalsIgnoreCase" method-type="" not="" not-type="" object="~sender" object-type="object" string="Обновления" string-type="string"/>
+      <showForm form="Upgrade_center" form-type="form"/>
+      <closeBlock/>
+      <openBlock/>
+      <ifText method="equalsIgnoreCase" method-type="" not="" not-type="" object="~sender" object-type="object" string="Моя система" string-type="string"/>
+      <showForm form="Time" form-type="form"/>
+      <closeBlock/>
+      <openBlock/>
+      <ifText method="equalsIgnoreCase" method-type="" not="" not-type="" object="~sender" object-type="object" string="Выключение" string-type="string"/>
+      <showFormAndWait form="system_off" form-type="form"/>
+      <closeBlock/>
+      <openBlock/>
+      <ifText method="contains" method-type="" not="" not-type="" object="~sender" object-type="object" string="TenCommand" string-type="string"/>
+      <elementSetText object="~sender" object-type="object" relative="" relative-type="" value="Error." value-type="string"/>
+      <closeBlock/>
+    </method>
+  
+  
+  
+  
+  
+  </class>
+</root>

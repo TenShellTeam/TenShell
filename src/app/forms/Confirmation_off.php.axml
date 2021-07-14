@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="system_off">
+    <method name="doLabel3ClickLeft">
+      <hideForm form="~sender" form-type="form"/>
+    </method>
+  
+  
+  </class>
+</root>

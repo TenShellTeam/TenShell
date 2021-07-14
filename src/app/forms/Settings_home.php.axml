@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Settings_home">
+    
+  
+  
+  <method name="doPar_for_devAct">
+      <showForm form="Settings_Parametrs_for_developers" form-type="form"/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doKeyDownShiftT">
+      <elementShow object="button5" object-type="object"/>
+    </method>
+  
+  
+  
+  
+  <method name="doImage3ClickLeft">
+      <hideForm form="~sender" form-type="form"/>
+      <showForm form="Settings_Personalization" form-type="form"/>
+    </method>
+  <method name="doLabelAltClickLeft">
+      <hideForm form="~sender" form-type="form"/>
+      <showForm form="Settings_Personalization" form-type="form"/>
+    </method>
+  
+  
+  
+  
+  <method name="doImage8ClickLeft">
+      <hideForm form="~sender" form-type="form"/>
+      <showForm form="Testing_Next" form-type="form"/>
+    </method>
+  <method name="doLabel6ClickLeft">
+      <hideForm form="~sender" form-type="form"/>
+      <showForm form="Testing_Next" form-type="form"/>
+    </method>
+  <method name="doImageAltClickLeft">
+      <openMedia autoplay="1" autoplay-type="flag" id="TenOS" id-type="string" source="res://.data/audio/Hide.mp3" source-type="string"/>
+      <hideForm form="~sender" form-type="form"/>
+    </method>
+  </class>
+</root>

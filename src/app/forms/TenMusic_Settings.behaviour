@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="image">
+    <behaviour color="#000000" offsetX="3.6585365853659" offsetY="0" radius="2.1951219512195" spread="0.4390243902439" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+    <behaviour centered="" hideOrigin="1" offsetX="0" offsetY="0" type="behaviour\custom\CursorBindBehaviour"/>
+  </target>
+</behaviours>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Dev_App">
+    <method name="doButton6Action">
+      <minimizeForm form="" form-type="form" restore="" restore-type=""/>
+    </method>
+  </class>
+</root>

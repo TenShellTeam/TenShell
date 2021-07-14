@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project author="DimasPlay" authorOS="Windows 10" createdAt="1454596699860" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="TenShell 2" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1620061931426">
+  <openedFiles>
+  <file src="TenShell 2.dnproject"/>
+    <file src="src/app/forms/VKAUTH.php"/>
+    <file src="src/app/forms/vkCaptcha.php"/>
+    <file src="src/app/forms/Desktop.php"/>
+    <file src="src/app/forms/Settings_home.php"/>
+    <file src="src/app/forms/Settings_Features.php"/>
+    <file src="src/app/forms/Settings_Personalization.php"/>
+    <file src="src/app/forms/Sets_Themes.php"/>
+    <file src="src/app/forms/TenMovies.php"/>
+    <file src="src/app/forms/Arrow.php"/>
+    <file src="src/app/forms/Colors.php"/>
+    <file src="src/app/forms/Dev_App.php"/>
+    <file src="src/app/forms/Menu.php"/>
+    <file src="src/app/forms/TenNotepad.php"/>
+    <file src="src/app/forms/TenMusic_Settings.php"/>
+    <file src="src/app/forms/Safe_Menu.php"/>
+    <file src="src/app/forms/Confirmation_off.php"/>
+    <file src="src/app/forms/Creator.php"/>
+    <file src="src/app/forms/Creator_Elements.php"/>
+    <file src="src/app/forms/Dev_Room.php"/>
+    <file src="src/app/forms/Error_TenMusic1.php"/>
+    <file src="src/app/forms/MainForm.php"/>
+    <file src="src/app/forms/Off.php"/>
+    <file src="src/app/forms/On.php"/>
+    <file src="src/app/forms/Safe_Desktop.php"/>
+    <file src="src/app/forms/TenMusic.php"/>
+    <file src="src/app/forms/TenMusic_Error.php"/>
+    <file src="src/app/forms/TenMusic_Home.php"/>
+    <file src="src/app/forms/TenMusic_Plus.php"/>
+    <file src="src/app/forms/TenPhotos.php"/>
+    <file src="src/app/forms/Time.php"/>
+    <file selected="1" src="src/app/forms/Youtube.php"/>
+  </openedFiles>
+  <files>
+  </files>
+  <behaviours>
+  <behaviour class="ide\project\behaviours\BundleProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\PhpProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\JavaPlatformBehaviour"/>
+    <behaviour class="ide\project\behaviours\GuiFrameworkProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\GradleProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\RunBuildProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\ShareProjectBehaviour"/>
+    <behaviour class="ide\project\behaviours\BackupProjectBehaviour"/>
+  </behaviours>
+<tree>
+    <expanded>
+    <path src=""/>
+      <path src="/src"/>
+      <path src="/src/app"/>
+      <path src="/src/app/forms"/>
+      <path src="/src/app/modules"/>
+    </expanded>
+  </tree>
+</project>

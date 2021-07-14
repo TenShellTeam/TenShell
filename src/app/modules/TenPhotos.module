@@ -1,0 +1,1 @@
+{"props":{"version":"1.1","author":"DimTen","description":"For the TenPhotos"},"components":{"fileChooser":{"type":"script\\FileChooserScript","x":144,"y":96,"props":{"filterName":"Фотографии","filterExtensions":"*.jpg, *.jpeg, *.png, *.gif","filterAny":"0","inputNode":"Photo","actionNode":"Open"}}}}

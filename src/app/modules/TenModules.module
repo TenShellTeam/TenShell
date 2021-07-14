@@ -1,0 +1,1 @@
+{"props":{"version":"1.0","author":"DimTen"},"components":{"fileChooser":{"type":"script\\FileChooserScript","x":432,"y":256,"props":{"filterName":"Все файлы","filterExtensions":"*.*","filterAny":"0","inputNode":"","actionNode":"open"}}}}

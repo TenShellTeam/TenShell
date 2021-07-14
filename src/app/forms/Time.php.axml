@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Time">
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doShow">
+      <elementShow object="form('MainForm')-&gt;Info_bar" object-type="object"/>
+    </method>
+  </class>
+</root>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="704" prefWidth="992" styleClass="">
+  <children>
+    <ImageViewEx autoSize="false" centered="true" focusTraversable="false" height="120" id="image" layoutX="224" layoutY="0" mosaic="false" mosaicGap="0" proportional="true" stretch="false" styleClass="" textFill="#000000" width="768">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image5" image=".data/img/TenPhotos_TenShell.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-image" image=".data/img/3PxX1S.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="true" focusTraversable="false" height="704" id="imageAlt" layoutX="0" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="224">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-imageAlt" image=".data/img/Walls_TenMobile.jpg" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-image6" image=".data/img/ic_settings_128_28718 (1).png" visible=""/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="40" id="image4" layoutX="952" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="40">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data clickImage=".data/img/Complete_Small_TenOS.png" cursor="DEFAULT" enabled="1" hoverImage=".data/img/ic_radio_button_off_128_28539.png" id="data-image4" image=".data/img/close_TenShell.png" visible="1"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#ffffff" focusTraversable="false" height="704" id="rect" layoutX="0" layoutY="0" opacity="0.70731707317074" stroke="#334db3" strokeType="INSIDE" strokeWidth="0" styleClass="" width="224"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="48" layoutY="56" prefHeight="25" prefWidth="176" styleClass="label " text="Настройки" textAlignment="LEFT" textFill="#4d4d4d" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI Semibold" size="16"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-label3" visible=""/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="56" layoutY="8" prefHeight="25" prefWidth="176" styleClass="label " text="TenPhotos" textAlignment="LEFT" textFill="#245687" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI Semibold" size="16"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label4" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="40" id="image5" layoutX="8" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="40">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="40" id="image6" layoutX="0" layoutY="48" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="40">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="232" layoutY="24" prefHeight="45" prefWidth="160" styleClass="label " text="TenPhotos" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="30"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" graphic=".data/img/Open_TenOS.png" id="data-Open" tooltipText="Открыть" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="100" clickColor="#e6e6e6" color="#e6e6e6" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#e6e6e6" id="Open" layoutX="920" layoutY="80" prefHeight="56" prefWidth="56" styleClass="x-flat-button " text="" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <ImageViewEx autoSize="false" centered="true" focusTraversable="false" height="584" id="Photo" layoutX="224" layoutY="120" mosaic="false" mosaicGap="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="768">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-Photo" visible="1"/>
+    <CustomNode type="Arrow.image" x="240" y="200"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="32" id="image3" layoutX="160" layoutY="360" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="32">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data clickImage=".data/img/Cursor_TenShell_Clicked.png" cursor="NONE" enabled="1" id="data-image3" image=".data/img/Cursor_TenShell.png" visible="1"/>
+  </children>
+</AnchorPane>

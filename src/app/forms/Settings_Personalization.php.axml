@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Settings_Personalization">
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doImageAltClickLeft">
+      <hideForm form="~sender" form-type="form"/>
+      <showForm form="Settings_home" form-type="form"/>
+    </method>
+  <method name="doImage3ClickLeft">
+      <hideForm form="~sender" form-type="form"/>
+      <showForm form="Settings_home" form-type="form"/>
+    </method>
+  <method name="doImage5ClickLeft">
+      <hideForm form="~sender" form-type="form"/>
+      <showForm form="Time" form-type="form"/>
+    </method>
+  <method name="doImage6ClickLeft">
+      <hideForm form="~sender" form-type="form"/>
+      <showForm form="Settings_apps" form-type="form"/>
+    </method>
+  <method name="doImage7ClickLeft">
+      <hideForm form="~sender" form-type="form"/>
+      <showForm form="Testing_Next" form-type="form"/>
+    </method>
+  <method name="doImageClickLeft">
+      <hideForm form="~sender" form-type="form"/>
+      <openMedia autoplay="1" autoplay-type="flag" id="TenOS" id-type="string" source="res://.data/audio/Hide.mp3" source-type="string"/>
+    </method>
+  
+  </class>
+</root>

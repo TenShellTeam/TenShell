@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="704" prefWidth="976" styleClass="">
+  <children>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="184" id="image" layoutX="0" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="976">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image" image=".data/img/flat-design-wallpaper-red.jpg" visible="1"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#f2f2f2" focusTraversable="false" height="520" id="background" layoutX="40" layoutY="184" stroke="#783800" strokeType="INSIDE" strokeWidth="0" styleClass="" width="936"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="40" id="imageAlt" layoutX="936" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="40">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data clickImage=".data/img/Complete_Small_TenOS.png" cursor="DEFAULT" enabled="1" hoverImage=".data/img/ic_radio_button_off_128_28539.png" id="data-imageAlt" image=".data/img/Delete-80_icon-icons.com_57340.png" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="40" id="image3" layoutX="936" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="40">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data clickImage=".data/img/Complete_Small_TenOS.png" cursor="DEFAULT" enabled="1" hoverImage=".data/img/ic_radio_button_off_128_28539.png" id="data-image3" image=".data/img/close_TenShell.png" visible="1"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#ffffff" focusTraversable="false" height="704" id="panel" layoutX="0" layoutY="0" opacity="0.86585365853659" stroke="#334db3" strokeType="INSIDE" strokeWidth="0" styleClass="" width="40"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="40" id="image5" layoutX="48" layoutY="192" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="40">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-image5" image=".data/img/ic_settings_128_28718 (1).png" visible="1"/>
+    <Data clickImage=".data/img/Complete_Small_TenOS.png" cursor="DEFAULT" enabled="1" hoverImage=".data/img/ic_radio_button_off_128_28539.png" id="data-image8" image=".data/img/Collapse_TenShell.png" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="96" layoutY="200" prefHeight="25" prefWidth="176" styleClass="label " text="Домашняя страница" textAlignment="LEFT" textFill="#245687" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI Semibold" size="16"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" graphic=".data/img/Features_TenShell.png" id="data-label6" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label6" layoutX="56" layoutY="48" prefHeight="45" prefWidth="296" styleClass="label " text="Features" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Calibri Light" size="30"/>
+      </font>
+    </LabelEx>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="40" id="image8" layoutX="888" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="40">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <CheckBox alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="checkbox" layoutX="88" layoutY="256" prefHeight="24" prefWidth="264" styleClass="check-box " text="Old desktop" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </CheckBox>
+    <Data cursor="DEFAULT" enabled="1" id="data-checkbox" visible="1"/>
+    <CheckBox alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="checkboxAlt" layoutX="88" layoutY="288" prefHeight="24" prefWidth="264" styleClass="check-box " text="Old Menu" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </CheckBox>
+    <Data cursor="DEFAULT" enabled="1" id="data-checkboxAlt" visible="1"/>
+    <CheckBox alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="checkbox3" layoutX="88" layoutY="320" prefHeight="24" prefWidth="264" selected="true" styleClass="check-box " text="TenSync" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </CheckBox>
+    <Data cursor="DEFAULT" enabled="1" id="data-checkbox3" visible="1"/>
+    <CheckBox alignment="CENTER_LEFT" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="checkbox4" layoutX="88" layoutY="352" prefHeight="24" prefWidth="264" selected="true" styleClass="check-box " text="Antivirus &quot;Curanin&quot;" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </CheckBox>
+    <Data cursor="DEFAULT" enabled="1" id="data-checkbox4" visible="1"/>
+    <CustomNode type="Arrow.image" x="152" y="112"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="32" id="image4" layoutX="48" layoutY="48" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="32">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data clickImage=".data/img/Cursor_TenShell_Clicked.png" cursor="NONE" enabled="1" id="data-image4" image=".data/img/Cursor_TenShell.png" visible="1"/>
+  </children>
+</AnchorPane>

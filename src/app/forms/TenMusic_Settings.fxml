@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480" prefWidth="640" styleClass="">
+  <children>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#1a1a1a" focusTraversable="false" height="480" id="rectAlt" layoutX="0" layoutY="0" opacity="0.89024390243902" stroke="#334db3" strokeType="INSIDE" strokeWidth="0" styleClass="" width="640"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectAlt" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="48" id="imageAlt" layoutX="0" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="48">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data clickImage=".data/img/Cursor_TenShell_Clicked.png" cursor="NONE" enabled="1" id="data-image" image=".data/img/Cursor_TenShell.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-imageAlt" image=".data/img/Back_2_Small_TenOS.png" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="32.399993896484" layoutY="48" prefHeight="26.6015625" prefWidth="160.64453125" styleClass="label " text="TenMusic Settings" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="20"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+    <ColorPicker focusTraversable="true" id="colorPickerAlt" layoutX="184" layoutY="161" prefHeight="32" prefWidth="144" styleClass="combo-box-base color-picker "/>
+    <Data cursor="DEFAULT" enabled="1" id="data-colorPickerAlt" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="32" id="image" layoutX="144" layoutY="344" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="32">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="8.00732421875" layoutY="168" prefHeight="17" prefWidth="160" styleClass="label " text="Установить цвет фона" textAlignment="LEFT" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="15"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+  </children>
+</AnchorPane>

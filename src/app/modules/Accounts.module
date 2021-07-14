@@ -1,0 +1,1 @@
+{"props":[],"components":{"ini":{"type":"script\\storage\\IniStorage","x":752,"y":304,"props":{"path":"login.ini","autoSave":"1","multiLineValues":"1"}},"iniAlt":{"type":"script\\storage\\IniStorage","x":672,"y":304,"props":{"path":"password.ini","autoSave":"1","multiLineValues":"1"}}}}

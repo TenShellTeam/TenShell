@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="704" prefWidth="976" styleClass="">
+  <children>
+    <Circle fill="#333333" focusTraversable="false" id="circleAlt" layoutX="536" layoutY="424" radius="24" stroke="#000000" strokeType="INSIDE" strokeWidth="2" styleClass=""/>
+    <Data cursor="DEFAULT" enabled="1" id="data-circleAlt" visible="1"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#1a1a1a" focusTraversable="false" height="704" id="background" layoutX="0" layoutY="0" stroke="#783800" strokeType="INSIDE" strokeWidth="0" styleClass="" width="976"/>
+    <ImageViewEx autoSize="false" centered="true" focusTraversable="false" height="184" id="imageAlt" layoutX="0" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="false" styleClass="" textFill="#000000" width="976">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data clickImage="" cursor="DEFAULT" enabled="1" id="data-image" image=".data/img/TenCommand_TenShell.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-imageAlt" image=".data/img/Desktop-Matrix-HD-Wallpapers.jpg" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="64" layoutY="424" prefHeight="16" prefWidth="96" styleClass="label " text="" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="96" id="image" layoutX="872" layoutY="120" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="96">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data clickImage=".data/img/Complete_Small_TenOS.png" cursor="DEFAULT" enabled="1" hoverImage=".data/img/ic_radio_button_off_128_28539.png" id="data-image3" image=".data/img/close_TenShell.png" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="50" clickColor="#003300" color="#336633" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#1a4d1a" id="button" layoutX="720" layoutY="168" prefHeight="40" prefWidth="136" styleClass="x-flat-button " text="Admin Console" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="Comic Sans MS" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="" id="data-button" visible=""/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="56" layoutY="56" prefHeight="45" prefWidth="176" styleClass="label " text="TenCommand" textAlignment="LEFT" textFill="#cccccc" underline="false" wrapText="false">
+      <font>
+        <Font name="Calibri Light" size="30"/>
+      </font>
+    </LabelEx>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="40" id="image3" layoutX="936" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="40">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="editAlt" layoutX="0" layoutY="664" prefColumnCount="12" prefHeight="40" prefWidth="976" promptText="Введите команду..." style="-fx-border-width: 1; &#10;-fx-border-radius: 0; &#10;-fx-border-color: #1a1a1a; &#10;-fx-background-color: #1a1a1a;" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="System Regular" size="14"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-editAlt" visible="1"/>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="40" id="image4" layoutX="888" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="40">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data clickImage=".data/img/Complete_Small_TenOS.png" cursor="DEFAULT" enabled="1" hoverImage=".data/img/ic_radio_button_off_128_28539.png" id="data-image4" image=".data/img/Collapse_TenShell.png" visible="1"/>
+    <CustomNode type="Arrow.image" x="176" y="136"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="32" id="image5" layoutX="80" layoutY="80" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="32">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data clickImage=".data/img/Cursor_TenShell_Clicked.png" cursor="NONE" enabled="1" id="data-image5" image=".data/img/Cursor_TenShell.png" visible="1"/>
+    <Data cursor="DEFAULT" id="data-background"/>
+  </children>
+</AnchorPane>

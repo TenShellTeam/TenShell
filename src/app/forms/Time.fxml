@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480" prefWidth="328" styleClass="">
+  <children>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#f2f2f2" focusTraversable="false" height="448" id="background" layoutX="0" layoutY="32" stroke="#000000" strokeType="INSIDE" strokeWidth="2" styleClass="" width="328"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="0" layoutY="56" prefHeight="120" prefWidth="328" styleClass="label " text="Продукты Ten принадлежат TenTeam 2017.&#10;Номер этой версии: 20002&#10;Ветка: beta_insider2&#10;Оболочка построена на DevelNext и TenCore.&#10;Версия DevelNext: DevelNext rc-2" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="16"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label4" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label10" layoutX="64" layoutY="424" prefHeight="16" prefWidth="96" styleClass="label " text="" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label10" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect" visible="1"/>
+    <CustomNode type="Arrow.image" x="520" y="416"/>
+    <CustomNode type="Arrow.image" x="248" y="208"/>
+    <Data clickImage=".data/img/Cursor_TenShell_Clicked.png" cursor="NONE" enabled="1" id="data-image3" image=".data/img/Cursor_TenShell.png" visible="1"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#e6e6e6" focusTraversable="false" height="56" id="rect" layoutX="0" layoutY="-16" stroke="#334db3" strokeType="INSIDE" strokeWidth="0" styleClass="" width="328"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#ffffff" focusTraversable="false" height="40" id="panel" layoutX="0" layoutY="0" stroke="#334db3" strokeType="INSIDE" strokeWidth="0" styleClass="" width="328"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
+    <Rectangle arcHeight="10" arcWidth="10" fill="#cc3333" focusTraversable="false" height="8" id="rect3" layoutX="288" layoutY="16" stroke="#334db3" strokeType="INSIDE" strokeWidth="0" styleClass="" width="24"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect3" tooltipText="Закрыть" visible="1"/>
+    <Rectangle arcHeight="10" arcWidth="10" fill="#334db3" focusTraversable="false" height="8" id="rect4" layoutX="256" layoutY="16" stroke="#334db3" strokeType="INSIDE" strokeWidth="0" styleClass="" width="24"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect4" tooltipText="Свернуть" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label9" layoutX="0" layoutY="8" prefHeight="23" prefWidth="144" styleClass="label " text="TenShell Beta 2" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="Calibri Light" size="20"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label9" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="5" color="#ffffff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#e6e6e6" id="button" layoutX="92" layoutY="408" prefHeight="32" prefWidth="144" styleClass="x-flat-button " text="ОК, закрыть" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-button" visible="1"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="32" id="image3" layoutX="237" layoutY="236" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="32">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-background" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="5" color="#ffffff" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#e6e6e6" id="buttonAlt" layoutX="96" layoutY="352" prefHeight="32" prefWidth="144" styleClass="x-flat-button " text="Перейти в управление" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </FlatButton>
+    <Data cursor="DEFAULT" enabled="1" id="data-buttonAlt" visible="1"/>
+  </children>
+</AnchorPane>

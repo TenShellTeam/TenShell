@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="circleAlt">
+    <behaviour centered="1" hideOrigin="1" offsetX="0" offsetY="0" type="behaviour\custom\CursorBindBehaviour"/>
+  </target>
+  <target id="imageAlt">
+    <behaviour animated="1" opacity="0.7" opacityEnabled="" type="behaviour\custom\DraggingFormBehaviour"/>
+    <behaviour radius="9.231707317073" type="behaviour\custom\GaussianBlurEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image">
+    <behaviour color="#000000" enabled="" offsetX="0" offsetY="0" radius="14.050632911392" spread="0.12658227848101" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="image5">
+    <behaviour color="#000000" offsetX="3.6585365853659" offsetY="0" radius="2.1951219512195" spread="0.4390243902439" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+    <behaviour centered="" hideOrigin="1" offsetX="0" offsetY="0" type="behaviour\custom\CursorBindBehaviour"/>
+  </target>
+</behaviours>

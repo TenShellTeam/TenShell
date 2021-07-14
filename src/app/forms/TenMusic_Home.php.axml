@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="TenMusic_Home">
+    
+  <method name="doButtonAltAction">
+      <playMedia id="player" id-type="object"/>
+    </method>
+  <method name="doButtonAction">
+      <stopMedia id="player" id-type="object"/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </class>
+</root>

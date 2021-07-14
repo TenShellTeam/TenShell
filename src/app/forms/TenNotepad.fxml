@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="704" prefWidth="992" styleClass="">
+  <children>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#ffffff" focusTraversable="false" height="664" id="background" layoutX="0" layoutY="40" opacity="0.70731707317074" stroke="#334db3" strokeType="INSIDE" strokeWidth="0" styleClass="" width="240"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#f2f2f2" focusTraversable="false" height="664" id="rect3" layoutX="240" layoutY="40" opacity="0.81707317073171" stroke="#783800" strokeType="INSIDE" strokeWidth="0" styleClass="" width="752"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#ffffff" focusTraversable="false" height="40" id="panel" layoutX="0" layoutY="0" opacity="0.86585365853659" stroke="#334db3" strokeType="INSIDE" strokeWidth="0" styleClass="" width="992"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="Save" layoutX="8" layoutY="96" prefHeight="25" prefWidth="176" styleClass="label " text="Save" textAlignment="LEFT" textFill="#4d4d4d" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI Semibold" size="16"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-Save" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="16" layoutY="48" prefHeight="25" prefWidth="176" styleClass="label " text="TenNotepad" textAlignment="LEFT" textFill="#245687" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI Semibold" size="16"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label4" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="264" layoutY="40" prefHeight="45" prefWidth="184" styleClass="label " text="TenNotepad" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="30"/>
+      </font>
+    </LabelEx>
+    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="40" id="image3" layoutX="952" layoutY="0" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="40">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data clickImage=".data/img/Complete_Small_TenOS.png" cursor="DEFAULT" enabled="1" hoverImage=".data/img/ic_radio_button_off_128_28539.png" id="data-image3" image=".data/img/close_TenShell.png" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect3" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="Open" layoutX="8" layoutY="144" prefHeight="25" prefWidth="176" styleClass="label " text="Open" textAlignment="LEFT" textFill="#4d4d4d" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI Semibold" size="16"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-Open" visible="1"/>
+    <TextArea editable="true" focusTraversable="true" id="NotepadArea" layoutX="240" layoutY="40" prefColumnCount="40" prefHeight="664" prefWidth="752" promptText="" style="-fx-border-width: 1;&#10;-fx-border-radius: 0;&#10;-fx-border-color: #ffffff;&#10;-fx-background-color: #ffffff; " styleClass="text-input text-area " text="" wrapText="true">
+      <font>
+        <Font name="System Regular" size="14"/>
+      </font>
+    </TextArea>
+    <Data cursor="DEFAULT" enabled="1" id="data-NotepadArea" visible="1"/>
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="FileRasp" layoutX="8" layoutY="8" prefHeight="24" prefWidth="344" styleClass="label " text="Расположение файла" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="System Regular" size="14"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-FileRasp" visible="1"/>
+    <CustomNode type="Arrow.image" x="232" y="192"/>
+    <ImageViewEx autoSize="true" centered="false" focusTraversable="false" height="32" id="imageAlt" layoutX="152" layoutY="352" mosaic="false" mosaicGap="0" proportional="false" stretch="true" styleClass="" textFill="#000000" width="32">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </ImageViewEx>
+    <Data clickImage=".data/img/Cursor_TenShell_Clicked.png" cursor="NONE" enabled="1" id="data-imageAlt" image=".data/img/Cursor_TenShell.png" visible="1"/>
+  </children>
+</AnchorPane>

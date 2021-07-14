@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="time">
+    <behaviour format="HH:mm" type="behaviour\custom\WatchMakerBehaviour"/>
+  </target>
+  <target id="data">
+    <behaviour format="dd.MM.YY" type="behaviour\custom\WatchMakerBehaviour"/>
+  </target>
+  <target id="circleAlt">
+    <behaviour centered="1" hideOrigin="1" offsetX="0" offsetY="0" type="behaviour\custom\CursorBindBehaviour"/>
+  </target>
+  <target id="image13">
+    <behaviour radius="5.3780487804878" type="behaviour\custom\GaussianBlurEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="Info_bar">
+    <behaviour threshold="0.3" type="behaviour\custom\BloomEffectBehaviour" when="HOVER"/>
+  </target>
+  <target id="TenCommand_bar">
+    <behaviour threshold="0.3" type="behaviour\custom\BloomEffectBehaviour" when="HOVER"/>
+  </target>
+  <target id="Settings_home_bar">
+    <behaviour threshold="0.3" type="behaviour\custom\BloomEffectBehaviour" when="HOVER"/>
+  </target>
+  <target id="New_Desktop">
+    <behaviour threshold="0.3" type="behaviour\custom\BloomEffectBehaviour" when="HOVER"/>
+  </target>
+</behaviours>

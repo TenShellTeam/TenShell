@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="TenBrowser">
+    
+  
+  <method name="doShow">
+      <elementLoadContent object="home_page" object-type="object" path="https://pbs.twimg.com/profile_images/582247408077303808/cxdZtiup_400x400.png" path-type="string" sync="1" sync-type=""/>
+      <elementLoadContent object="buttonsearch" object-type="object" path="https://pp.vk.me/c636118/v636118810/35a15/bpROGkjMwlU.jpg" path-type="string" sync="1" sync-type=""/>
+      <elementLoadContent object="vkicon" object-type="object" path="https://pp.vk.me/c636118/v636118810/35a0e/uaTgmNncvhg.jpg" path-type="string" sync="1" sync-type=""/>
+    </method>
+  <method name="doLabelAltClickLeft">
+      <elementLoadContent object="browser" object-type="object" path="http://yandex.ru" path-type="string" sync="" sync-type=""/>
+    </method>
+  <method name="doHome_pageClickLeft">
+      <elementLoadContent object="browser" object-type="object" path="http://yandex.ru" path-type="string" sync="" sync-type=""/>
+    </method>
+  <method name="doVkiconClickLeft">
+      <elementLoadContent object="browser" object-type="object" path="http://vk.com" path-type="string" sync="" sync-type=""/>
+    </method>
+  
+  <method name="doButtonsearchAction">
+      <elementLoadContent object="browser" object-type="object" path="edit" path-type="object" sync="" sync-type=""/>
+    </method>
+  <method name="doEditKeyDownEnter">
+      <elementLoadContent object="browser" object-type="object" path="edit" path-type="object" sync="" sync-type=""/>
+    </method>
+  <method name="doLabel4ClickLeft">
+      <elementLoadContent object="browser" object-type="object" path="http://vk.com" path-type="string" sync="" sync-type=""/>
+    </method>
+  
+  <method name="doImageClickLeft">
+      <hideForm form="~sender" form-type="form"/>
+      <openMedia autoplay="1" autoplay-type="flag" id="TenOS" id-type="string" source="res://.data/audio/Hide.mp3" source-type="string"/>
+    </method>
+  </class>
+</root>

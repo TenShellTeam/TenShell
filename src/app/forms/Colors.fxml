@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480" prefWidth="640" styleClass="">
+  <children>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#cce6ff" focusTraversable="false" height="48" id="panel_color" layoutX="8" layoutY="8" stroke="#334db3" strokeType="INSIDE" strokeWidth="0" styleClass="" width="96"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel_color" visible="1"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#cce6ff" focusTraversable="false" height="48" id="background_color" layoutX="112" layoutY="8" stroke="#334db3" strokeType="INSIDE" strokeWidth="0" styleClass="" width="104"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-background_color" visible="1"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#cce6ff" focusTraversable="false" height="48" id="Notification_color" layoutX="224" layoutY="8" stroke="#334db3" strokeType="INSIDE" strokeWidth="0" styleClass="" width="96"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-Notification_color" visible="1"/>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#cce6ff" focusTraversable="false" height="48" id="rectAlt" layoutX="328" layoutY="8" stroke="#334db3" strokeType="INSIDE" strokeWidth="0" styleClass="" width="96"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectAlt" visible="1"/>
+  </children>
+</AnchorPane>
